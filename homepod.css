@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: white;
+}
+
+.titre {
+
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 5%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+#Ancre1 {
+    position: relative;
+    bottom: 40px;
+    left: 475px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#Ancre2 {
+
+    position: relative;
+    bottom: 40px;
+    left: 520px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#Ancre3 {
+
+    position: relative;
+    bottom: 40px;
+    left: 565px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+#Ancre4 {
+
+    position: relative;
+    bottom: 40px;
+    left: 610px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.titre2{
+
+    font-size: 400%;
+    font-family: 'Monoton', cursive;
+
+}
+
+.multicolor-text {
+    text-align: center;
+    background: linear-gradient(to left, white, blue, salmon, yellow, black );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.multicolor-text1 {
+    
+    background: linear-gradient(to left,blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.titre2 img {
+
+    margin-top: 100px;
+
+}
+
+.bloc1 {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    
+}
+
+.bloc1 img{
+    margin-left: 45%;
+    height: 100%;
+    margin-top: -64px;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+
+
+.bloc2 {
+
+    background-color: black;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.bloc2 img{
+
+    width: fit-content;
+
+}
+
+.present1 {
+
+    font-size: 300%;
+    margin-left: 60px;
+
+}
+
+
+.liste1{
+
+    font-family: 'Inter', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-right: 45%;
+    
+}
+
+
+.bloc3 {
+
+    display: flex;
+    background-color: white ;
+    width: 100%;
+    
+}
+
+.titre3 {
+
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    text-decoration-line: underline;
+    font-size: 200%;
+    
+}
+
+
+
+.img2 {
+
+    padding-top: 50px;
+    padding-left: 10%;
+    width: 50%;
+    height: 50%;
+
+}
+
+.bloc4 {
+
+    text-align: center;
+    background-color:black ;
+    width: 100%;
+    font-size: 200%;
+    margin-top: 100px;
+
+}
