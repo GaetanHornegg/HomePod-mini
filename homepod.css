@@ -19,6 +19,11 @@ body {
 
 }
 
+#Ancre0{
+
+    text-decoration: none;
+}
+
 #Ancre1 {
     position: relative;
     bottom: 40px;
@@ -51,18 +56,31 @@ body {
     text-decoration: none;
     color: white;
     font-family: 'Inter', sans-serif;
-    
+
 }
 
-#Ancre4 {
+#Ancre1:hover {
 
-    position: relative;
-    bottom: 40px;
-    left: 610px;
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Inter', sans-serif;
+    font-size: 200%;
+    background: linear-gradient(to left, blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#Ancre2:hover {
+
+    font-size: 200%;
+    background: linear-gradient(to left, blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#Ancre3:hover {
+
+    font-size: 200%;
+    background: linear-gradient(to left, blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
 
 }
 
@@ -94,13 +112,50 @@ body {
 
 }
 
-.bloc1 {
+.header {
     background-color: black;
     height: 100px;
     width: 100%;
     margin-bottom: 5%;
     padding-top: 10px;
     
+}
+
+.footer {
+
+    background-color:black  ;
+    height: 130px;
+    width: 100%;
+    
+}
+
+.footer h3 {
+    padding-left: 20%;
+    padding-top: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.footer img {
+    padding-left: 20%;
+    height: 30%;
+
+}
+
+.footer p {
+
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-left: 20%;
+
+}
+
+.footer-text{
+
+    padding-left: 75%;
+    color: white;
+
 }
 
 .bloc1 img{
@@ -181,6 +236,188 @@ body {
     background-color:black ;
     width: 100%;
     font-size: 200%;
+    margin-top: px;
+
+}
+
+.text-cara {
+
     margin-top: 100px;
+    height: 330px;
+    display: flex;
+    background-color: black;
+
+}
+
+.ul1 {
+
+    font-size: 170%;
+    font-family: 'Inter', sans-serif;
+    padding-left: 25%;
+    background: linear-gradient(to left,blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+.ul2 {
+
+    font-size: 170%;
+    font-family: 'Inter', sans-serif;
+    padding-left: 15%;
+    padding-top: 4%;
+    background: linear-gradient(to left,blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.bloc5 {
+
+    background-color: white;
+    height: 400px;
+    padding-top: 70px;
+
+}
+
+.bloc5 h1 {
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to left,white,blue, salmon, yellow,black);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 250%;
+}
+
+
+
+.bloc5 p {
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to left,blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 170%;
+}
+
+.text-cara2 {
+
+    display: flex;
+
+}
+
+.bloc6 {
+
+    background-color: black;
+    width: 50%;
+    height: 500px;
+
+
+}
+
+.bloc6 img {
+
+    width: 100%;
+
+}
+
+.bloc7 {
+
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    margin-left: 50%;
+    margin-top: -500px;
+    
+
+}
+
+.bloc7 h1 {
+
+    padding-top: 100px;
+    background: linear-gradient(to left,black,blue, salmon, yellow,white );
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 220%;
+
+}
+
+.bloc7 h4 {
+
+    background: linear-gradient(to left,black,blue, salmon, yellow,white );
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+
+}
+
+.bloc7 h5 {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: linear-gradient(to left,black,blue, salmon, yellow,white );
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+
+}
+
+.bloc7 p {
+
+    background: linear-gradient(to left,black,blue, salmon, yellow,white );
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+
+}
+
+.bloc7 ul { 
+
+    list-style-type: none;
+
+}
+
+.bloc8 {
+
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.bloc8 h1 {
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to left,white,blue, salmon, yellow,black);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 250%;
+    padding-bottom: 20px;
+
+}
+
+
+.bloc8 p {
+
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to left,blue, salmon, yellow );
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 170%;
 
 }
